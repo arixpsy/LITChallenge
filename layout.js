@@ -18,7 +18,7 @@
   "use strict";
 
   var ENTER_KEY_CODE = 13;
-  var queryInput, resultDiv, accessTokenInput;
+  var queryInput, resultDiv;
 
   window.onload = init;
 
@@ -27,8 +27,32 @@
     resultDiv = document.getElementById("result");
     queryInput.addEventListener("keydown", queryInputKeyDown);
     setAccessToken();
+    intialchat();
   }
 
+  function intialchat(){
+
+    var value = "hello";
+
+    var responseNode = createResponseNode();
+
+    sendText(value)
+      .then(function(response) {
+        var result;
+        try {
+          result = response.result.fulfillment.speech
+        } catch(error) {
+          result = "";
+        }
+        setResponseOnNode(result, responseNode);
+        document.getElementById("result").scrollTop = document.getElementById("result").scrollHeight;
+      })
+      .catch(function(err) {
+        setResponseOnNode("Something goes wrong", responseNode);
+        document.getElementById("result").scrollTop = document.getElementById("result").scrollHeight;
+      });
+
+  }
   function setAccessToken() {
     window.init("e94874882f4b4eaeaf064bbd7769b77c");
     //window.init(accessTokenInput.value);
