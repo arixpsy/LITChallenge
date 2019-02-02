@@ -4,173 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <script src="target/ApiAi.js"></script>
     <script src="demoFunctions.js"></script>
-
-    <style>
-        #placeholder {
-            text-align: center;
-            margin-top: 1.5em;
-        }
-        #main-wrapper {
-            display: none;
-        }
-        .clearfix {
-            clear: both;
-        }
-
-        /* Place the navbar at the bottom of the page, and make it stick */
-        .navbar {
-        background-color: #333;
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        }
-
-        /* Style the links inside the navigation bar */
-        .navbar a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        }
-
-        /* Change the color of links on hover */
-        .navbar a:hover {
-        background-color: #ddd;
-        color: black;
-        }
-
-        /* Add a color to the active/current link */
-        .navbar a.active {
-        background-color: rgb(190, 192, 190);
-        color: white;
-        }
-        
-        .navbutton{
-            width: 250px;
-            color: white;
-            background-color: #111;
-            border-width:0;
-            font-size: large;
-            padding:15px 31px;
-	        text-decoration:none;
-	        text-shadow:1px 1px 1px #2f6627;
-        }
-        .navbutton :active{
-            background-color: #111;
-        }
-        .navbutton :visited{
-            background-color: #111;
-        }
-        .navbutton:hover{
-            background-color:#444;
-        }
-        .sidenav {
-            height: 100%; /* 100% Full-height */
-            width: 0; /* 0 width - change this with JavaScript */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Stay on top */
-            top: 0; /* Stay at the top */
-            left: 0;
-            background-color:black;
-            overflow-x: hidden; /* Disable horizontal scroll */
-            padding-top: 60px; /* Place content 60px from the top */
-            transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        }
-        /* The navigation menu links */
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        /* When you mouse over the navigation links, change their color */
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-        .sidenav .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-            z-index: 2;
-        }
-        .sidenav input{
-            color:white;
-        }
-        #result{
-            word-break: break-word;
-        }
-    </style>
-    <script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "350px";
-        document.getElementById("mySidenav").style.padding = "5px";
-    }
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0px";
-        document.getElementById("mySidenav").style.padding = "0px";
-    }
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    </script>
+     <!-- Bootstrap CSS CDN -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     <!-- Our Custom CSS -->
+     <link rel="stylesheet" href="style3.css">
+     <!-- Scrollbar Custom CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+ 
+     <!-- Font Awesome JS -->
+     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+ 
+    <!-- My own edited files -->
+    <link rel="stylesheet" href="style.css">
+    
+
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <h5>Configure demo:</h5>
-    </div>
-    <div class="row">
-        <div class="input-field col s10">
-            <input id="access_token" type="text" value="e94874882f4b4eaeaf064bbd7769b77c">
-            <label for="access_token">Access token</label>
+    <!-- Floating Chat Button-->
+        <div class='chat-float' id="sidebarCollapse">
+                <i class="material-icons md-light md-36">chat</i>
         </div>
-        <div class="col s2 input-field">
-            <a class="waves-effect waves-light btn" id="set_access_token">Set</a>
+    <!-------------------------------------- Bootstrap Page------------------------------------------------->
+
+    <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar" class='bg-dark'>
+                <div id="dismiss">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <div class="sidebar-header">
+                    <h3>Ask ...</h3>
+                </div>
+                <div class="chat-box">
+                        <div id="result"></div>
+                </div>
+                <div class="input-field chat-field">
+                    <input placeholder="Hey, ask me something..." id="q" type="text" >
+                </div>
+            </nav>
+    
+            <!-- Page Content  -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+            <div id="container" class='webcontent'>
+                    <h2>Response payload</h2>
+                    <pre id="jsonResponse"></pre>
+                    <div class="line"></div>
+                
+                <!-- Set Access token Here-->
+                <div style='display: none;'>
+                    <input id="access_token" type="text" value="e94874882f4b4eaeaf064bbd7769b77c">
+                    <label for="access_token">Access token</label>
+                    <a class="waves-effect waves-light btn" id="set_access_token">Set</a>
+                </div><i class="material-icons md-48 md-light">chat</i>
+                <h3>Lorem Ipsum Dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
         </div>
-    </div>
-</div>
-<div id="placeholder">
-    <h5>Please, fill access token before start</h5>
-</div>
-<div id="main-wrapper">
-    <div class="container">
-        <div class="row">
-            <!--h5>Request payload:</h5>
-            <pre id="jsonRequest"></pre-->
-            <h5>Response payload:</h5>
-            <pre id="jsonResponse"></pre>
-        </div>
-    </div>
-</div>
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div id='chats'></div>
-    <div id="result">
-            <!--div class="left-align flow-text">test</div>
-            <div class="right-align flow-text">one more test</div-->
-    </div>
-    <div class="input-field">
-            <input placeholder="Hey, ask me something..." id="q" type="text" >
-    </div>
-</div>
-<div class="navbar">
-        <div class="navbutton" onclick="openNav()">Legal Questions Bot</div>
-</div>
-<script defer src="layout.js"></script>
+    
+    
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script defer src="layout.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+    
+                $('#dismiss, .overlay').on('click', function () {
+                    $('#sidebar').removeClass('active');
+                });
+    
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').addClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+        
 
 </body>
 </html>

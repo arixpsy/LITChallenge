@@ -30,11 +30,10 @@
 
     queryInput.addEventListener("keydown", queryInputKeyDown);
     setAccessTokenButton.addEventListener("click", setAccessToken);
+    setAccessTokenButton.click();
   }
 
   function setAccessToken() {
-    document.getElementById("placeholder").style.display = "none";
-    document.getElementById("main-wrapper").style.display = "block";
     window.init(accessTokenInput.value);
   }
 
@@ -68,14 +67,14 @@
 
   function createQueryNode(query) {
     var node = document.createElement('div');
-    node.className = "clearfix left-align left card-panel green accent-1";
+    node.className = "own-text";
     node.innerHTML = query;
     resultDiv.appendChild(node);
   }
 
   function createResponseNode() {
     var node = document.createElement('div');
-    node.className = "clearfix right-align right card-panel blue-text text-darken-2 hoverable";
+    node.className = "reply-text";
     node.innerHTML = "...";
     resultDiv.appendChild(node);
     return node;
