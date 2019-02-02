@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a9bee173-7582-45c1-bae0-195c09b58517",
+    "data": [
+      {
+        "text": "The goods were not delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f28cc883-fcfd-4572-a493-b7e41184325c",
+    "data": [
+      {
+        "text": "they lied about the product",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "8d9a73a9-2662-4a17-ac94-060e7aba16bf",
+    "data": [
+      {
+        "text": "I paid for a product but it was not delivered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "4120aeb6-c074-408a-ae64-c64ab6b85b6b",
+    "data": [
+      {
+        "text": "The goods were defective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "9d1c952a-e45e-4b2b-81ba-de3c618acc53",
+    "data": [
+      {
+        "text": "The company did not fulfil their end",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

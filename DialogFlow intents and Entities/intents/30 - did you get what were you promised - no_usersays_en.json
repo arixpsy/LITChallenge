@@ -1,0 +1,234 @@
+[
+  {
+    "id": "5b7fae33-6792-4560-b165-c5ce67eb13f7",
+    "data": [
+      {
+        "text": "$100",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "374cfa63-1cba-436f-b41b-2f2a448a20f5",
+    "data": [
+      {
+        "text": "$200",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "af440e67-0ee8-4c6c-911f-670ae9b09a0d",
+    "data": [
+      {
+        "text": "money",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "72d1d063-8e43-433e-8426-fe7d1b50be02",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "pay",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "5d22c5ac-ee41-49e2-a091-a9e43f90a290",
+    "data": [
+      {
+        "text": "I didn\u0027t get ",
+        "userDefined": false
+      },
+      {
+        "text": "money",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "b718d385-c044-4894-8c74-541535cbc0ff",
+    "data": [
+      {
+        "text": "pay",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "e5b67088-57a5-4e8a-a133-b87a776aae9a",
+    "data": [
+      {
+        "text": "income",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "29065d0d-7849-472e-b76e-d18fd94c3b45",
+    "data": [
+      {
+        "text": "allowance",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "35aeb653-6fea-4c37-8da3-a81d07d7a1ba",
+    "data": [
+      {
+        "text": "I was not paid on time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "31541468-41f3-4816-bf59-f8a16bf35d8b",
+    "data": [
+      {
+        "text": "I was supposed to get ",
+        "userDefined": false
+      },
+      {
+        "text": "money",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "d015c1ff-81b0-428a-883f-6a313fa78926",
+    "data": [
+      {
+        "text": "I was suppose to receive ",
+        "userDefined": false
+      },
+      {
+        "text": "money",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "5a03dfb3-0877-4af2-b4cc-44168dacafa7",
+    "data": [
+      {
+        "text": "I did not receive my ",
+        "userDefined": false
+      },
+      {
+        "text": "salary",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "b2ca862c-d1b5-41d5-9849-216945566335",
+    "data": [
+      {
+        "text": "salary",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "14c538b8-a83f-4578-ac67-42962e98cd74",
+    "data": [
+      {
+        "text": "Compensation",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  },
+  {
+    "id": "e3779ec8-474d-4cb6-9c0e-404d35b02ee8",
+    "data": [
+      {
+        "text": "I was suppose to get ",
+        "userDefined": false
+      },
+      {
+        "text": "compensation",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133336
+  }
+]

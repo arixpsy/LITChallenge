@@ -1,0 +1,74 @@
+[
+  {
+    "value": "money",
+    "synonyms": [
+      "money"
+    ]
+  },
+  {
+    "value": "$100",
+    "synonyms": [
+      "$100"
+    ]
+  },
+  {
+    "value": "salary",
+    "synonyms": [
+      "salary"
+    ]
+  },
+  {
+    "value": "income",
+    "synonyms": [
+      "income"
+    ]
+  },
+  {
+    "value": "compensation",
+    "synonyms": [
+      "compensation"
+    ]
+  },
+  {
+    "value": "pay",
+    "synonyms": [
+      "pay"
+    ]
+  },
+  {
+    "value": "$200",
+    "synonyms": [
+      "$200"
+    ]
+  },
+  {
+    "value": "allowance",
+    "synonyms": [
+      "allowance"
+    ]
+  },
+  {
+    "value": "correct item",
+    "synonyms": [
+      "correct item"
+    ]
+  },
+  {
+    "value": "colour",
+    "synonyms": [
+      "colour"
+    ]
+  },
+  {
+    "value": "model",
+    "synonyms": [
+      "model"
+    ]
+  },
+  {
+    "value": "repair warranty",
+    "synonyms": [
+      "repair warranty"
+    ]
+  }
+]

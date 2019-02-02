@@ -1,0 +1,105 @@
+notes,,,INTENT_NAME,INPUT_CONTEXT,OUTPUT_CONTEXT,,USER_SAYS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RESPONSES
+"explain of scenario? (don't directly ask who broke the contract?) 
+(briefly explain what is the issue? e.g. template, gauge briefness) 
+(specify the value propostion, FOC first level consultation) (not you, this is the chatbot est. whether can you sue someone)
+the actual welcome intent is hardcoded in the template, it would be affected by the changes here",welcome - subsitute,10,10 - welcome - subsitute,,"3, init",,can we restart the process?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Welcome to ABC law partners. <br>
+We can help you find out whether you have a legal case against someone who has broken an agreement. <br>
+I am not a lawyer, but I provide preliminary analysis to the facts of your case. <br>
+There is no cost to using this service. <br>
+Can you briefly explain your issue? <br>
+(e.g. my customer did not pay me, the good was defective)"
+,divorce matter,11,11 - divorce matter,init,"0, init","3, allied-law-firms",i want a divorce,my wife cheated on me,my husband is a cheater,i want to terminate the marriage,i want alimony,i deserve child custody,my spouse is abusing me,I have a PPO,I would like to get an expedieted order,I would like to know more about domestic abuse,My spouse is hurting my kids,My spouse is hurting my family,My ex husband keeps on coming to my house and harrassing me and my kids,My ex husband is stalking me,I want to get a PPO,,personal protection order,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems that your issue relates to family matters. <br>
+Our chatbot is trained to answer issues pertaining to contract matters. <br>
+Please refer to our allied law firms."
+,criminal matter,12,12 - criminal matter,init,"0, init","3, allied-law-firms",i want to bail out my friend,my husband is in jail,the police detain me,Devan punched me,Lucifer raped me,Johnny intimidated me,A group punched me,There are loan sharks after me,I was stalked,Stalker hurt me,Someone hurt me,My friend hurt me,I was beaten up,i was kidnapped,someone molest me,Someone took obscene videos of me,my ex has my sex tape,my ex has obscene videos of me,,,,,,,,,,,,,,,,,,,,,,,,,"It seems that this relates to criminal matters. <br>
+Our chatbot is trained to answer issues pertaining to contract matters. <br>
+Please refer to our allied law firms."
+,defamation matters,13,13 - defamation matters,init,"0, init","3, allied-law-firms",Timothy accused me of corruption,John tarnished my reputation,my classmate badmouthed me,Someone said something bad about me,Mike said I was ugly,John said bad things about me to sally,Ben told people not to befriend me,John spread  my nudes online,Someone spread obscene material online,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems that this relates to defamation matters. <br>
+Our chatbot is trained to answer issues pertaining to contract matters. <br>
+Please refer to our allied law firms."
+"I would really like them not to repeat. However it is either automatic detection of defendant, or classification of legal domain. I want to do the latter. So we will make do with repeating for now.",contract matter,14,14 - contract matter,init,"0, init","3, who-broke-promise",my friend didn't pay me,my employer didn't pay me,the good I bought was faulty,There was a breach of contract,I was lied to regarding payment,my payment was withheld,I was not paid,The seller didn't sell me,the contractor never finish the work,I did not get paid,The agent never pay me,The recruiter never pay me,I got cheated,I got scammed,I got lied to,my friend lie to me,I was not paid,I did not recieve my payment,I did not  get my wages,I did not get my refund,refund,compensation,I did not get compensated,I did not get reimbursed,,,,,,,,,,,,,,,,,,,"It seems to be a contract matter. <br>
+Can you repeat who broke the promise? <br>
+(friend, employer, retailer, spouse)"
+"I would really like them not to repeat. However it is either automatic detection of defendant, or classification of legal domain. I want to do the latter. So we will make do with repeating for now.",contract matter 2,15,15 - contract matter 2,init,"0, init","3, who-broke-promise",The goods were not delivered,they lied about the product,I paid for a product but it was not delivered,The goods were defective,,,,,The company did not fulfil their end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems to be a contract matter. <br>
+Can you repeat who broke the promise? <br>
+(friend, employer, retailer, spouse)"
+,who broke the promise - domestic,16,16 - who broke the promise - domestic,who-broke-promise,"0, who-broke-promise","3, domestic",friend,my family,my girlfriend,my boyfriend,my husband,my wife,my father,my mother,my classmate,my friend,colleague,cousin,sister-in-law,brother-in-law,father-in-law,mother-in-law,daughter-in-law,son-in-law,granddaughter,grandfather,grandmother,grandson,spouse,,,,,,,,,,,,,,,,,,,,"This seems to be a social or domestic arrangement between you and <the other party>. <br>
+In general, the courts presume that that friends and family do not intend to create legal relationships when they make promises. <br>
+- unless there is a separate legal agreement allowing for such enforcement. <br>
+A relevant case heard in Singapore is <a href='https://www.singaporelawwatch.sg/Portals/0/Docs/Judgments/[2003]%20SGHC%20229.pdf'>Heidi v Guangzhou</a> <br>
+<br>
+Is the agreement intended to be enforceable? <br>
+(yes/no/what is enforceable?)"
+,what is enforceable?,17,17 - what is enforceable?,domestic,,"2, domestic",what is enforceable?,enforceable?,what do you mean,I don't understand,I don't get it,What?,Pardon?,Could you elaborate on that,could you explain,what does it mean,explain please,please help me understand it,I would like to know more,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Enforceable means that the court recognizes that the agreement in question is legitimate and thus the promises in the agreement should be kept. <br>
+<br>
+Is the agreement intended to be enforceable? <br>
+(yes/no)"
+,domestic - enforceable,18,18 - domestic - enforceable,domestic,"0, domestic","3, what-was-promised",yes,yup,yeah,yea,correct,not wrong,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Assuming that the agreement is intended to be enforceable, what were you promised to get? <br>
+(e.g. money, goods, services)"
+,domestic - unenforceable,19,19 - domestic - unenforceable,domestic,"0, domestic","3, what-was-promised",no,nope,nah,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems that there was no intention to create legal relations, and you may not have a case. <br>
+Nevertheless, you can make an appointment with our lawyers to explore your legal options. <br>
+BEGIN APPOINTMENT PROCESS <br>
+<br>
+However, you can assume that the agreement is intended to be enforceable. What were you promised to get? <br>
+(e.g. money, goods, services)"
+,who broke the promise - commerical,20,20 - who broke the promise - commerical,who-broke-promise,"0, who-broke-promise","3, what-was-promised",employee,employer,supplier,retailer,customer,agent,boss,ceo,,supervisor,manager,superior,contractor,owner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"What were you promised to get? <br>
+(e.g. money, goods, services)"
+"could be promise not to do things - how?, special case of promised NOT? should we expect a noun answer or a verb answer. example answers to streamline the answer",what were you promised to get?,21,21 - what were you promised to get?,what-was-promised,"0, what-was-promised","3, what-you-give",$100,repair services,watch,bag,shoe,house,car,income,iPhone,food,salary,phone,xbox,computer,animal,dog,a trip,favours,earpiece,tv,radio,laptop,food,alcohol,freedom,clothes,hats,clothes,apparel,watch,clock,land,sports equipment,equipment,a job,bag,water bottle,bubble tea,food,,,,"What did you promise to give? <br>
+(e.g. goods, services, love and affection, money, time, property, nothing)"
+"could be promise not to do things - how?, special case of promised NOT? should we expect a noun answer or a verb answer. example answers to streamline the answer",what were you promised to get? 2,22,22 - what were you promised to get? 2,what-was-promised,"0, what-was-promised","3, what-you-give",money,goods,services,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"What did you promise to give? <br>
+(e.g. goods, services, love and affection, money, time, property, nothing)"
+,what did you promise to give - insignificant,23,23 - what did you promise to give - insignificant,what-you-give,"0, what-you-give","3, maybe-insufficient-consideration",nothing,love,affection,it was my duty,I was supposed to do this,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems like the requirement of consideration is not met in your case as you did not offer <echo the other party> anything in exchange for the other party's promise to <whatever was promised>. <br>
+Moral obligation, love and affection, as well as nothing is not considered sufficient consideration.<br>
+A relevant case heard in Singapore is <a href='http://www.trusts.it/admincp/UploadedPDF/200906031602290.Gay%20Choon%20Ing%20v%20Loh%20Sze%20Ti%20Terence%20Peter%20and%20Another%20Appeal%20-%20%5B2009%5D%20SGCA%203%20(8%20January%202009).pdf'>Gay Choon Ing v Loh Sze Ti</a> <br>
+<br>
+Do you think that your case still has significance after explaining what it means?<br>
+(yes/no)"
+,insufficient consideration,24,24 - insufficient consideration,maybe-insufficient-consideration,"0, maybe-insufficient-consideration","3, is-consideration-past",no,nope,nah,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"You seem not to have offered sufficient consideration for a contract to be formed. <br>
+Nevertheless, you can make an appointment with our lawyer to explore your legal options. <br>
+BEGIN APPOINTMENT PROCESS<br>
+<br>
+However, you may assume that there is sufficient consideration and continue. <br>
+Did the promise happen before you gave <what you promised to give>?<br>
+(before/after)"
+"""sufficient (not need adequate) consideration"" - time?  - list of insufficient consideration - moral obligation, love and affection, existing public duty imposed by law, existing contracting duty owed to the same party",sufficient consideration,25,25 - sufficient consideration,maybe-insufficient-consideration,"0, maybe-insufficient-consideration","3, is-consideration-past",yes,yup,yeah,yea,correct,not wrong,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"We assumed that sufficent consideration came from you. <br>
+Did the promise happen before you gave <what you promised to give>? <br>
+(before/after)"
+need to explain the rationale behind asking this question,what did you promise to give - significant,26,26 - what did you promise to give - significant,what-you-give,"0, what-you-give","3, is-consideration-past",money,goods,services,time,skills,items,time,hours,minutes ,seconds,body,soul,place,area,friends,items,stuff,my phone,my pen,my deed,my car,my bag,$100,my home,work,my life,,,,,,,,,,,,,,,,,"Did the promise happen before you gave <what you promised to give>? <br>
+(before/after)"
+,consideration is in the past,27,27 - consideration is in the past,is-consideration-past,"0, is-consideration-past","3, got-what-you-were-promised",no,after,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The court does not recognize consideration given in the time after a promise has been made to constitute valid consideration for that promise.<br>
+A relevant case law is <a href='https://www.supremecourt.gov.sg/docs/default-source/default-document-library/sjc/gyh_ccl_8.pdf'>Rainforest v State Bank of India</a> 
+Nevertheless, you can make an appointment with our lawyer to explore your legal options. <br>
+BEGIN APPOINTMENT PROCESS <br>
+<br>
+We shall assume that the contract is valid. <br>
+If you did not get what you were promised in full, what was missing? <br>
+(e.g. goods were defective, shop did not fulfill repair warranty)"
+,consideration is not in the past,28,28 - consideration is not in the past,is-consideration-past,"0, is-consideration-past","3, got-what-you-were-promised",yes,before,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"If you did not get what you were promised in full, what was missing? <br>
+(e.g. goods were defective, shop did not fulfill repair warranty)"
+,did you get what were you promised - yes,29,29 - did you get what were you promised - yes,got-what-you-were-promised,"0, got-what-you-were-promised","0, NOW-WHAT",nothing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seem that the contract is completed successful.
+There may be a case against the other party.
+However, if you have any legal issues please contact our lawyers."
+part performance? did you do everything that what you are supposed to do.  change of object,did you get what were you promised - no,30,30 - did you get what were you promised - no,got-what-you-were-promised,"0, got-what-you-were-promised","3, is-this-a-term",$100,$200,money,my pay,I didn't get money,pay,income,allowance,,I was not paid on time,I was supposed to get money,I was suppose to recieve money,I did not recieve my salary,salary,Compensation,I was suppose to get compensation,,,,,,,,,,,,,,,,,,,,,,,,,,,"Where was missing item stated? <br>
+(e.g. It was stated in the written argreement, we agreed just before signing the form, it was part of an advertisement)"
+part performance? did you do everything that what you are supposed to do.  change of object,did you get what were you promised - no 2,31,31 - did you get what were you promised - no 2,got-what-you-were-promised,"0, got-what-you-were-promised","3, is-this-a-term",The good was not fully featured,goods were defective,shop did not fulfill repair warranty,rennovation was not complete,the item was defective,I didn't get the item,The item was not the correct item,I got the wrong item,The quantity was wrong,the item was a different colour,the item is a different model,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Where was missing item stated? <br>
+(e.g. It was stated in the written argreement, we agreed just before signing the form, it was part of an advertisement)"
+proceed to term/warranty - does the question make sense? probably settle this eariler - probably MAIN part of the contract,it is a term,32,32 - it is a term,is-this-a-term,"0, is-this-a-term","3, MAKE-APPOINTMENT",It was stated in the written argreement,just before signing the contract.,He guaranteed,He texted me,He wrote it in a text to me,He whatsapp me,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems to be a breach of the contract, and you can sue. <br>
+You may be entitled to terminate the contract and sue for losses incurred.<br>
+<br>
+Please make an appointment with our lawyers if you want to bring advance your case. <br>
+BEGIN APPOINTMENT PROCESS"
+proceed to misrep,it is not a term,33,33 - it is not a term,is-this-a-term,"0, is-this-a-term","3, is-this-misrepresentation",It was in the advertisement,It was from the salesperson,The poster said so.,It was on the TV,It was on the internet,It was labelled on the shelf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The missing item does not seem to be part of the contract. <br>
+It might be a misrepresentation, where an untrue statement of material fact is made to induce an innocent party to enter into the contract. <br>
+<br>
+What was the untrue statement? <br>
+(e.g. confirm win lottery, will make profit, cheapest in town) "
+,is it misrepresentation - yes,34,34 - is it misrepresentation - yes,is-this-misrepresentation,"0, is-this-misrepresentation","3, MAKE-APPOINTMENT",Confirm earn profit,This is the cheapest in town,Does not break down,Tested,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"It seems to be misrepresentation. <br>
+<br>
+Please contact our lawyer for an appointment, if you wish to advance your case. <br>
+BEGIN APPOINTMENT PROCESS"
+,is it misrepresentation - no,35,35 - is it misrepresentation - no,is-this-misrepresentation,"0, is-this-misrepresentation","0, NOW-WHAT",Confirm win lottery,Become champion,Gives you wings,Make you number one,Find girlfriend,Top in class,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Even though it is a false statement of fact from one party to another, the statement is viewed as an exaggeration by a reasonable man.<br>
+You may not have a case. <br>
+A relevant case law is <a href='https://www.singaporelawwatch.sg/Portals/0/Docs/Judgments/[2015]%20SGHC%20103.pdf'>Goldrich v Halcyon</a> <br>
+<br>
+Nevertheless, you can make an appointment with our lawyer to explore your legal options. <br>
+BEGIN APPOINTMENT PROCESS"

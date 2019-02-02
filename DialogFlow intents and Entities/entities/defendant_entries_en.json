@@ -1,0 +1,128 @@
+[
+  {
+    "value": "employer",
+    "synonyms": [
+      "employer"
+    ]
+  },
+  {
+    "value": "mother-in-law",
+    "synonyms": [
+      "mother-in-law"
+    ]
+  },
+  {
+    "value": "husband",
+    "synonyms": [
+      "husband"
+    ]
+  },
+  {
+    "value": "colleague",
+    "synonyms": [
+      "colleague"
+    ]
+  },
+  {
+    "value": "friend",
+    "synonyms": [
+      "friend"
+    ]
+  },
+  {
+    "value": "father-in-law",
+    "synonyms": [
+      "father-in-law"
+    ]
+  },
+  {
+    "value": "daughter-in-law",
+    "synonyms": [
+      "daughter-in-law"
+    ]
+  },
+  {
+    "value": "boyfriend",
+    "synonyms": [
+      "boyfriend"
+    ]
+  },
+  {
+    "value": "mother",
+    "synonyms": [
+      "mother"
+    ]
+  },
+  {
+    "value": "son-in-law",
+    "synonyms": [
+      "son-in-law"
+    ]
+  },
+  {
+    "value": "cousin",
+    "synonyms": [
+      "cousin"
+    ]
+  },
+  {
+    "value": "father",
+    "synonyms": [
+      "father"
+    ]
+  },
+  {
+    "value": "grandson",
+    "synonyms": [
+      "grandson"
+    ]
+  },
+  {
+    "value": "spouse",
+    "synonyms": [
+      "spouse"
+    ]
+  },
+  {
+    "value": "grandfather",
+    "synonyms": [
+      "grandfather"
+    ]
+  },
+  {
+    "value": "family",
+    "synonyms": [
+      "family"
+    ]
+  },
+  {
+    "value": "grandmother",
+    "synonyms": [
+      "grandmother"
+    ]
+  },
+  {
+    "value": "classmate",
+    "synonyms": [
+      "classmate"
+    ]
+  },
+  {
+    "value": "girlfriend",
+    "synonyms": [
+      "girlfriend"
+    ]
+  },
+  {
+    "value": "granddaughter",
+    "synonyms": [
+      "granddaughter"
+    ]
+  },
+  {
+    "value": "wife",
+    "synonyms": [
+      "wife"
+    ]
+  }
+]

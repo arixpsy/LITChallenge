@@ -1,0 +1,54 @@
+{
+  "id": "90a89016-c065-bf0b-e92c-224cc1ab3688",
+  "name": "23 - what did you promise to give - insignificant",
+  "auto": true,
+  "contexts": [
+    "what-you-give"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "what-you-give",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "maybe-insufficient-consideration",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d75e0a88-6246-44ad-b436-47880087b403",
+          "required": false,
+          "dataType": "@consideration",
+          "name": "consideration",
+          "value": "$consideration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It seems like the requirement of consideration is not met in your case as you did not offer the other party anything significant in exchange for the other party\u0027s promise. \u003cbr\u003e\nMoral obligation, love and affection, as well as nothing is not considered sufficient consideration.\u003cbr\u003e\nA relevant case heard in Singapore is \u003ca href\u003d\u0027http://www.trusts.it/admincp/UploadedPDF/200906031602290.Gay%20Choon%20Ing%20v%20Loh%20Sze%20Ti%20Terence%20Peter%20and%20Another%20Appeal%20-%20%5B2009%5D%20SGCA%203%20(8%20January%202009).pdf\u0027\u003eGay Choon Ing v Loh Sze Ti\u003c/a\u003e \u003cbr\u003e\n\u003cbr\u003e\nDo you think that your case still has significance after explaining what it means?\u003cbr\u003e\n(yes/no)",
+            "It seems like the requirement of consideration is not met in your case as you did not offer the other party anything significant ( $consideration ) in exchange for the other party\u0027s #what-you-give.promise. \u003cbr\u003e\nMoral obligation, love and affection, as well as nothing is not considered sufficient consideration.\u003cbr\u003e\nA relevant case heard in Singapore is \u003ca href\u003d\u0027http://www.trusts.it/admincp/UploadedPDF/200906031602290.Gay%20Choon%20Ing%20v%20Loh%20Sze%20Ti%20Terence%20Peter%20and%20Another%20Appeal%20-%20%5B2009%5D%20SGCA%203%20(8%20January%202009).pdf\u0027\u003eGay Choon Ing v Loh Sze Ti\u003c/a\u003e \u003cbr\u003e\n\u003cbr\u003e\nDo you think that your case still has significance after explaining what it means?\u003cbr\u003e\n(yes/no)",
+            "It seems like the requirement of consideration is not met in your case as you did not offer the other party anything significant ( $consideration ) in exchange for the other party\u0027s #what-you-give.unit-currency. \u003cbr\u003e\nMoral obligation, love and affection, as well as nothing is not considered sufficient consideration.\u003cbr\u003e\nA relevant case heard in Singapore is \u003ca href\u003d\u0027http://www.trusts.it/admincp/UploadedPDF/200906031602290.Gay%20Choon%20Ing%20v%20Loh%20Sze%20Ti%20Terence%20Peter%20and%20Another%20Appeal%20-%20%5B2009%5D%20SGCA%203%20(8%20January%202009).pdf\u0027\u003eGay Choon Ing v Loh Sze Ti\u003c/a\u003e \u003cbr\u003e\n\u003cbr\u003e\nDo you think that your case still has significance after explaining what it means?\u003cbr\u003e\n(yes/no)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549135771,
+  "fallbackIntent": false,
+  "events": []
+}

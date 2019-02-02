@@ -1,0 +1,41 @@
+{
+  "id": "2ece1735-9662-898a-3fed-747eea8a28f1",
+  "name": "27 - consideration is in the past",
+  "auto": true,
+  "contexts": [
+    "is-consideration-past"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "is-consideration-past",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "got-what-you-were-promised",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The court does not recognize consideration given in the time after a promise has been made to constitute valid consideration for that promise.\u003cbr\u003e\nA relevant case law is \u003ca href\u003d\u0027https://www.supremecourt.gov.sg/docs/default-source/default-document-library/sjc/gyh_ccl_8.pdf\u0027\u003eRainforest v State Bank of India\u003c/a\u003e \nNevertheless, you can make an appointment with our lawyer to explore your legal options. \u003cbr\u003e\nBEGIN APPOINTMENT PROCESS \u003cbr\u003e\n\u003cbr\u003e\nWe shall assume that the contract is valid. \u003cbr\u003e\nIf you did not get what you were promised in full, what was missing? \u003cbr\u003e\n(e.g. goods were defective, shop did not fulfill repair warranty)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

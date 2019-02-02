@@ -1,0 +1,74 @@
+[
+  {
+    "id": "a072a8be-5437-49b9-a992-1849ff492cb0",
+    "data": [
+      {
+        "text": "nothing",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549135353
+  },
+  {
+    "id": "a6b0fd3e-b8a2-44ef-9766-7495bce76bb7",
+    "data": [
+      {
+        "text": "love",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549135353
+  },
+  {
+    "id": "2a8d1b20-b647-444a-9adc-c954db3f608c",
+    "data": [
+      {
+        "text": "affection",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549135353
+  },
+  {
+    "id": "b5485dd1-8c51-4b18-8c75-d92c580aeada",
+    "data": [
+      {
+        "text": "it was my ",
+        "userDefined": false
+      },
+      {
+        "text": "duty",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549135353
+  },
+  {
+    "id": "5a802599-ef5c-47cd-89e5-939d0aedbec6",
+    "data": [
+      {
+        "text": "I was supposed to do this",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

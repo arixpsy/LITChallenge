@@ -1,0 +1,278 @@
+[
+  {
+    "id": "a52446ff-432f-449e-a533-e745f0ddd0e7",
+    "data": [
+      {
+        "text": "my friend didn\u0027t pay me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "e05ea324-80bd-456f-b253-2fda221362a7",
+    "data": [
+      {
+        "text": "my employer didn\u0027t pay me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "a27616ff-f491-447a-86cc-4c7f5d7eae8b",
+    "data": [
+      {
+        "text": "the good I bought was faulty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "725261eb-e8a2-4b5b-924c-3e13437542ab",
+    "data": [
+      {
+        "text": "There was a breach of contract",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "10b04ed8-5528-4f11-8558-f7a8848ccc0a",
+    "data": [
+      {
+        "text": "I was lied to regarding payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "e5e32db8-22e8-4e9e-b657-cba036523f42",
+    "data": [
+      {
+        "text": "my payment was withheld",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f1403813-3715-4e1a-836c-d6ed772d8c1d",
+    "data": [
+      {
+        "text": "I was not paid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1549132945
+  },
+  {
+    "id": "5fcd2ab9-8e26-4cba-a00a-08e7fbc0fe3b",
+    "data": [
+      {
+        "text": "The seller didn\u0027t sell me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "9e6bc450-42ca-4b98-ac9c-3f1ada6909f4",
+    "data": [
+      {
+        "text": "the contractor never finish the work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "8699c789-bfb7-422a-8c45-0e4fc5e95831",
+    "data": [
+      {
+        "text": "I did not get paid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3a21893a-0ce8-436c-ab04-3dee2282df8d",
+    "data": [
+      {
+        "text": "The agent never pay me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "ae64af68-c543-451d-8d60-4e53573982fc",
+    "data": [
+      {
+        "text": "The recruiter never pay me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3b1d1621-058a-4176-ad47-9ea397e0eaaa",
+    "data": [
+      {
+        "text": "I got cheated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "98555bc7-b184-442b-823c-a7bbac777d18",
+    "data": [
+      {
+        "text": "I got scammed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "bc9bf083-4c88-4597-8658-8e72623f2656",
+    "data": [
+      {
+        "text": "I got lied to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "5d58e5ea-ade0-41b8-9938-7cbffffde750",
+    "data": [
+      {
+        "text": "my friend lie to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "aafaae09-97a7-484a-a3cc-d891e7b315d8",
+    "data": [
+      {
+        "text": "I did not recieve my payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "aab112ec-ca35-4655-ba15-ed0fe8ace0bb",
+    "data": [
+      {
+        "text": "I did not  get my wages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "a52fe949-af70-4a9d-933d-bde324b28f4f",
+    "data": [
+      {
+        "text": "I did not get my refund",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "9de961e6-d810-4e6f-a42f-e39b62d6d563",
+    "data": [
+      {
+        "text": "refund",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "1b8f3fe3-71a1-4be0-8162-fd6f77950c94",
+    "data": [
+      {
+        "text": "compensation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "d57cd922-e8d1-442a-b9e5-43cfe82df834",
+    "data": [
+      {
+        "text": "I did not get compensated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3ab57e53-3ecb-4978-b769-02ca6b394616",
+    "data": [
+      {
+        "text": "I did not get reimbursed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

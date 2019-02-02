@@ -1,0 +1,41 @@
+{
+  "id": "22dcd436-f967-8600-434c-74a9cf9886b0",
+  "name": "18 - domestic - enforceable",
+  "auto": true,
+  "contexts": [
+    "domestic"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "domestic",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "what-was-promised",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Assuming that the agreement is intended to be enforceable, what were you promised to get? \u003cbr\u003e\n(e.g. money, goods, services)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

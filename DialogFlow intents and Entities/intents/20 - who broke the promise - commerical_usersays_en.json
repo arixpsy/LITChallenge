@@ -1,0 +1,158 @@
+[
+  {
+    "id": "7742be24-0f28-442b-83d0-79724d84e546",
+    "data": [
+      {
+        "text": "employee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "7eda9a69-7423-4ab6-b595-ab634d6cac70",
+    "data": [
+      {
+        "text": "employer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "821eb4c8-519b-4a79-a9c8-189761d3fd8f",
+    "data": [
+      {
+        "text": "supplier",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "0f497e79-d35d-4c6a-8cd4-5f491dac31e9",
+    "data": [
+      {
+        "text": "retailer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "de9f34fb-9049-4c6e-9501-c5849c141725",
+    "data": [
+      {
+        "text": "customer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "9cdde6aa-e245-402b-8eef-1f19eb9666f9",
+    "data": [
+      {
+        "text": "agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "61358804-62f6-489b-ba40-c69275a8e2b6",
+    "data": [
+      {
+        "text": "boss",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "0e1fd96f-b463-45cd-971b-38e76c3ce3f4",
+    "data": [
+      {
+        "text": "ceo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "8056cc83-06ef-4b6a-845a-fbf8db40fa50",
+    "data": [
+      {
+        "text": "supervisor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "ee84b16d-2eb3-44c1-a3f3-77a45e41b949",
+    "data": [
+      {
+        "text": "manager",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "abb841c7-d93f-4a1b-8a22-8ed5f71394e5",
+    "data": [
+      {
+        "text": "superior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "4b68efbd-c2e3-4ea2-9244-d69a4ed06b05",
+    "data": [
+      {
+        "text": "contractor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "58664924-ad0e-49bc-93a8-7fb9f57aafc9",
+    "data": [
+      {
+        "text": "owner",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

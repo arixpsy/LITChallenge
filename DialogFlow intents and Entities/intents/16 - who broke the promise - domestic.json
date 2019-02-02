@@ -1,0 +1,52 @@
+{
+  "id": "00ef20c6-5510-13a2-150e-e07987792458",
+  "name": "16 - who broke the promise - domestic",
+  "auto": true,
+  "contexts": [
+    "who-broke-promise"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "who-broke-promise",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "domestic",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ed5ecd99-256d-4383-907b-de7fd7b4dee6",
+          "dataType": "@defendant",
+          "name": "defendant",
+          "value": "$defendant",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "This seems to be a social or domestic arrangement between you and the other party. \u003cbr\u003e\nIn general, the courts presume that that friends and family do not intend to create legal relationships when they make promises. \u003cbr\u003e\n- unless there is a separate legal agreement allowing for such enforcement. \u003cbr\u003e\nA relevant case heard in Singapore is \u003ca href\u003d\u0027https://www.singaporelawwatch.sg/Portals/0/Docs/Judgments/[2003]%20SGHC%20229.pdf\u0027\u003eHeidi v Guangzhou\u003c/a\u003e \u003cbr\u003e\n\u003cbr\u003e\nIs the agreement intended to be enforceable? \u003cbr\u003e\n(yes/no/what is enforceable?)",
+            "This seems to be a social or domestic arrangement between you and $defendant. \u003cbr\u003e\nIn general, the courts presume that that friends and family do not intend to create legal relationships when they make promises. \u003cbr\u003e\n- unless there is a separate legal agreement allowing for such enforcement. \u003cbr\u003e\nA relevant case heard in Singapore is \u003ca href\u003d\u0027https://www.singaporelawwatch.sg/Portals/0/Docs/Judgments/[2003]%20SGHC%20229.pdf\u0027\u003eHeidi v Guangzhou\u003c/a\u003e \u003cbr\u003e\n\u003cbr\u003e\nIs the agreement intended to be enforceable? \u003cbr\u003e\n(yes/no/what is enforceable?)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549134475,
+  "fallbackIntent": false,
+  "events": []
+}

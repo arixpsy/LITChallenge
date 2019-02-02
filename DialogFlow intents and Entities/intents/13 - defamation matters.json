@@ -1,0 +1,41 @@
+{
+  "id": "8efefd0d-408f-f20a-69ba-8cee24d3361b",
+  "name": "13 - defamation matters",
+  "auto": true,
+  "contexts": [
+    "init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "init",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "allied-law-firms",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It seems that this relates to defamation matters. \u003cbr\u003e\nOur chatbot is trained to answer issues pertaining to contract matters. \u003cbr\u003e\nPlease refer to our allied law firms."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

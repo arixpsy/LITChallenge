@@ -1,0 +1,41 @@
+{
+  "id": "aeebf4e3-7951-6305-992e-78c200f0a452",
+  "name": "28 - consideration is not in the past",
+  "auto": true,
+  "contexts": [
+    "is-consideration-past"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "is-consideration-past",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "got-what-you-were-promised",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If you did not get what you were promised in full, what was missing? \u003cbr\u003e\n(e.g. goods were defective, shop did not fulfill repair warranty)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

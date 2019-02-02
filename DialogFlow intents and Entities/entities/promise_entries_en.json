@@ -1,0 +1,224 @@
+[
+  {
+    "value": "money",
+    "synonyms": [
+      "money"
+    ]
+  },
+  {
+    "value": "services",
+    "synonyms": [
+      "services"
+    ]
+  },
+  {
+    "value": "goods",
+    "synonyms": [
+      "goods"
+    ]
+  },
+  {
+    "value": "laptop",
+    "synonyms": [
+      "laptop"
+    ]
+  },
+  {
+    "value": "favours",
+    "synonyms": [
+      "favours"
+    ]
+  },
+  {
+    "value": "watch",
+    "synonyms": [
+      "watch"
+    ]
+  },
+  {
+    "value": "$100",
+    "synonyms": [
+      "$100"
+    ]
+  },
+  {
+    "value": "radio",
+    "synonyms": [
+      "radio"
+    ]
+  },
+  {
+    "value": "iPhone",
+    "synonyms": [
+      "iPhone"
+    ]
+  },
+  {
+    "value": "computer",
+    "synonyms": [
+      "computer"
+    ]
+  },
+  {
+    "value": "salary",
+    "synonyms": [
+      "salary"
+    ]
+  },
+  {
+    "value": "trip",
+    "synonyms": [
+      "trip"
+    ]
+  },
+  {
+    "value": "shoe",
+    "synonyms": [
+      "shoe"
+    ]
+  },
+  {
+    "value": "phone",
+    "synonyms": [
+      "phone"
+    ]
+  },
+  {
+    "value": "dog",
+    "synonyms": [
+      "dog"
+    ]
+  },
+  {
+    "value": "alcohol",
+    "synonyms": [
+      "alcohol"
+    ]
+  },
+  {
+    "value": "earpiece",
+    "synonyms": [
+      "earpiece"
+    ]
+  },
+  {
+    "value": "car",
+    "synonyms": [
+      "car"
+    ]
+  },
+  {
+    "value": "bag",
+    "synonyms": [
+      "bag"
+    ]
+  },
+  {
+    "value": "house",
+    "synonyms": [
+      "house"
+    ]
+  },
+  {
+    "value": "sports equipment",
+    "synonyms": [
+      "sports equipment"
+    ]
+  },
+  {
+    "value": "xbox",
+    "synonyms": [
+      "xbox"
+    ]
+  },
+  {
+    "value": "animal",
+    "synonyms": [
+      "animal"
+    ]
+  },
+  {
+    "value": "equipment",
+    "synonyms": [
+      "equipment"
+    ]
+  },
+  {
+    "value": "income",
+    "synonyms": [
+      "income"
+    ]
+  },
+  {
+    "value": "water bottle",
+    "synonyms": [
+      "water bottle"
+    ]
+  },
+  {
+    "value": "repair services",
+    "synonyms": [
+      "repair services"
+    ]
+  },
+  {
+    "value": "food",
+    "synonyms": [
+      "food"
+    ]
+  },
+  {
+    "value": "clothes",
+    "synonyms": [
+      "clothes"
+    ]
+  },
+  {
+    "value": "land",
+    "synonyms": [
+      "land"
+    ]
+  },
+  {
+    "value": "job",
+    "synonyms": [
+      "job"
+    ]
+  },
+  {
+    "value": "clock",
+    "synonyms": [
+      "clock"
+    ]
+  },
+  {
+    "value": "tv",
+    "synonyms": [
+      "tv"
+    ]
+  },
+  {
+    "value": "duty",
+    "synonyms": [
+      "duty"
+    ]
+  },
+  {
+    "value": "love",
+    "synonyms": [
+      "love"
+    ]
+  },
+  {
+    "value": "affection",
+    "synonyms": [
+      "affection"
+    ]
+  },
+  {
+    "value": "nothing",
+    "synonyms": [
+      "nothing"
+    ]
+  }
+]

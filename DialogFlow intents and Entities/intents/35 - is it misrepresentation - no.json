@@ -1,0 +1,41 @@
+{
+  "id": "00303793-67bd-f4e0-9f57-0d7154f83714",
+  "name": "35 - is it misrepresentation - no",
+  "auto": true,
+  "contexts": [
+    "is-this-misrepresentation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "is-this-misrepresentation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "NOW-WHAT",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Even though it is a false statement of fact from one party to another, the statement is viewed as an exaggeration by a reasonable man.\u003cbr\u003e\nYou may not have a case. \u003cbr\u003e\nA relevant case law is \u003ca href\u003d\u0027https://www.singaporelawwatch.sg/Portals/0/Docs/Judgments/[2015]%20SGHC%20103.pdf\u0027\u003eGoldrich v Halcyon\u003c/a\u003e \u003cbr\u003e\n\u003cbr\u003e\nNevertheless, you can make an appointment with our lawyer to explore your legal options. \u003cbr\u003e\nBEGIN APPOINTMENT PROCESS"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "9389bc89-523b-4e8d-8332-e2cb25dd2b19",
+    "data": [
+      {
+        "text": "money",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3945c98a-f1d4-4f3a-87ea-6bc0eb0e0a33",
+    "data": [
+      {
+        "text": "goods",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "79104a49-39df-46f9-a046-fabf2f703d9b",
+    "data": [
+      {
+        "text": "services",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "id": "9ed86d9e-4930-4e2a-ad58-4f131325ac83",
+    "data": [
+      {
+        "text": "$100",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549135700
+  },
+  {
+    "id": "64464b39-6655-4aee-952b-94c04511cfff",
+    "data": [
+      {
+        "text": "repair services",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "bc83f755-edce-42ac-b5ba-d3426b2c52cf",
+    "data": [
+      {
+        "text": "watch",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1549132945
+  },
+  {
+    "id": "ed748486-4f3c-4c8f-8a25-1d633b659b88",
+    "data": [
+      {
+        "text": "bag",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1549132945
+  },
+  {
+    "id": "f23b9921-cde3-43ad-8da5-75d76e6a9e96",
+    "data": [
+      {
+        "text": "shoe",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "fc06f572-17e8-4fbb-9786-763ff43a8e29",
+    "data": [
+      {
+        "text": "house",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "54535261-0acd-42e1-94bb-4a04fdf5e453",
+    "data": [
+      {
+        "text": "car",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3c57ece0-2226-48e5-bb4f-b2dc3b6b8d4c",
+    "data": [
+      {
+        "text": "income",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "5ff8125e-4653-4d3a-bd38-e678110e2b01",
+    "data": [
+      {
+        "text": "iPhone",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "0d337a18-6b15-49bb-9fdf-876bed4fa639",
+    "data": [
+      {
+        "text": "food",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 1549132945
+  },
+  {
+    "id": "a4d5a487-b22a-414d-95c8-d8b05e5eefbe",
+    "data": [
+      {
+        "text": "salary",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "b2f40774-0b13-43c9-b33f-2c09a19537ab",
+    "data": [
+      {
+        "text": "phone",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "203312c8-ca0a-4eeb-8298-cd807f0c1557",
+    "data": [
+      {
+        "text": "xbox",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "a9588ac1-8849-40f5-95a2-33b1eac52a3d",
+    "data": [
+      {
+        "text": "computer",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "712cf6ea-6577-4cf5-8ea1-727fa13c27f7",
+    "data": [
+      {
+        "text": "animal",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "584aa89c-b6ab-4a47-b4f1-3c134cf57c1c",
+    "data": [
+      {
+        "text": "dog",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "c44b296d-d469-490c-bb78-d73bab1065f5",
+    "data": [
+      {
+        "text": "a ",
+        "userDefined": false
+      },
+      {
+        "text": "trip",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "69da2508-585e-4f72-b989-770153875be9",
+    "data": [
+      {
+        "text": "favours",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "a8aa097c-0117-441a-b649-e86b7024e085",
+    "data": [
+      {
+        "text": "earpiece",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "0ed3c842-0774-4732-bf08-7add753afde8",
+    "data": [
+      {
+        "text": "tv",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "e1e49550-3a36-428f-b099-12a11b56653f",
+    "data": [
+      {
+        "text": "radio",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "93c573e6-9547-4675-86c5-430d91f760d7",
+    "data": [
+      {
+        "text": "laptop",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f76ccca3-1759-4644-8241-973bbca560f9",
+    "data": [
+      {
+        "text": "alcohol",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "7d0983bc-1554-4536-a424-3dee9095ef1f",
+    "data": [
+      {
+        "text": "clothes",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1549132945
+  },
+  {
+    "id": "5b878da4-4d33-447b-bb31-764dd33455b0",
+    "data": [
+      {
+        "text": "clock",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "5658b41b-1826-4ae9-b7ec-2dfc3ad75462",
+    "data": [
+      {
+        "text": "land",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "7b9bbeb4-39ca-4caa-8742-aff1eced5d07",
+    "data": [
+      {
+        "text": "sports equipment",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "be24ff6d-02b1-4fdd-8334-c4c9dd6b669e",
+    "data": [
+      {
+        "text": "equipment",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f3ff1761-6136-42e0-9e72-176fe33ea860",
+    "data": [
+      {
+        "text": "a ",
+        "userDefined": false
+      },
+      {
+        "text": "job",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "e79f7eaa-2589-4cc6-a39f-e303c8e066f4",
+    "data": [
+      {
+        "text": "water bottle",
+        "alias": "promise",
+        "meta": "@promise",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

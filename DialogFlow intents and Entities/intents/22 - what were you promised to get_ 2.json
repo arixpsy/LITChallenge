@@ -1,0 +1,53 @@
+{
+  "id": "656c855f-6d03-6ee3-8850-425cc199e5e0",
+  "name": "22 - what were you promised to get? 2",
+  "auto": true,
+  "contexts": [
+    "what-was-promised"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "what-was-promised",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "what-you-give",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "40b00718-b295-4d52-80ea-e7d62255060b",
+          "required": false,
+          "dataType": "@promise",
+          "name": "promise",
+          "value": "$promise",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What are you supposed to give in exchange for the promise? \u003cbr\u003e\n(e.g. goods, services, love and affection, money, time, property, nothing)",
+            "What are you supposed to give, in exchange for the $promise? \u003cbr\u003e\n(e.g. goods, services, love and affection, money, time, property, nothing)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549135886,
+  "fallbackIntent": false,
+  "events": []
+}

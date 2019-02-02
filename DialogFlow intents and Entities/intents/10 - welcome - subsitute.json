@@ -1,0 +1,34 @@
+{
+  "id": "1dc790f1-9deb-cfe3-7039-40a003fb223f",
+  "name": "10 - welcome - subsitute",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "init",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to ABC law partners. \u003cbr\u003e\nWe can help you find out whether you have a legal case against someone who has broken an agreement. \u003cbr\u003e\nI am not a lawyer, but I provide preliminary analysis to the facts of your case. \u003cbr\u003e\nThere is no cost to using this service. \u003cbr\u003e\nCan you briefly explain your issue? \u003cbr\u003e\n(e.g. my customer did not pay me, the good was defective)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

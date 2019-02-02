@@ -1,0 +1,44 @@
+{
+  "id": "33401902-f860-b058-9e14-f9f7f8d6cab9",
+  "name": "33 - it is not a term",
+  "auto": true,
+  "contexts": [
+    "is-this-a-term"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "is-this-a-term",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "is-this-misrepresentation",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "The #is-this-a-term.missing-item does not seem to be part of the contract. \u003cbr\u003e\nIt might be a misrepresentation, where an untrue statement of material fact is made to induce an innocent party to enter into the contract. \u003cbr\u003e\n\u003cbr\u003e\nWhat was the untrue statement? \u003cbr\u003e\n(e.g. confirm win lottery, will make profit, cheapest in town)",
+            "The missing-item does not seem to be part of the contract. \u003cbr\u003e\nIt might be a misrepresentation, where an untrue statement of material fact is made to induce an innocent party to enter into the contract. \u003cbr\u003e\n\u003cbr\u003e\nWhat was the untrue statement? \u003cbr\u003e\n(e.g. confirm win lottery, will make profit, cheapest in town)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549133481,
+  "fallbackIntent": false,
+  "events": []
+}

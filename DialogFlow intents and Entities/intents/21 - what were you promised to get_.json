@@ -1,0 +1,61 @@
+{
+  "id": "8050037c-ea08-2cfc-0ca3-dbcd57e4cfae",
+  "name": "21 - what were you promised to get?",
+  "auto": true,
+  "contexts": [
+    "what-was-promised"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "what-was-promised",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "what-you-give",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62cf85dc-df6c-4d03-96bd-1882b0d876c7",
+          "required": false,
+          "dataType": "@promise",
+          "name": "promise",
+          "value": "$promise",
+          "isList": false
+        },
+        {
+          "id": "344a395c-331e-4e87-94d4-8c2c02f9761b",
+          "dataType": "@sys.unit-currency",
+          "name": "unit-currency",
+          "value": "$unit-currency",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What are you supposed to give in exchange for the promise? \u003cbr\u003e\n(e.g. goods, services, love and affection, money, time, property, nothing)",
+            "What are you supposed to give, in exchange for the $promise? \u003cbr\u003e\n(e.g. goods, services, love and affection, money, time, property, nothing)",
+            "What are you supposed to give, in exchange for the $unit-currency? \u003cbr\u003e\n(e.g. goods, services, love and affection, money, time, property, nothing)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549135700,
+  "fallbackIntent": false,
+  "events": []
+}

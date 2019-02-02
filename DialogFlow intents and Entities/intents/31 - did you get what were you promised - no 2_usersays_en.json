@@ -1,0 +1,158 @@
+[
+  {
+    "id": "d0d49ba3-4f36-4fa5-aa2f-4d8416d43f87",
+    "data": [
+      {
+        "text": "The good was not fully featured",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "2f302772-1b1a-4b70-a623-853276cd65bc",
+    "data": [
+      {
+        "text": "goods were defective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "5f077106-5a62-4154-b91d-db80ee51a187",
+    "data": [
+      {
+        "text": "shop did not fulfil ",
+        "userDefined": false
+      },
+      {
+        "text": "repair warranty",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "09e4f2a3-5a08-43e7-bbf6-2f2fbdd09355",
+    "data": [
+      {
+        "text": "rennovation was not complete",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "b0f5342e-9cf6-4136-b747-96d897b6ae23",
+    "data": [
+      {
+        "text": "the item was defective",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "15934b14-a712-44e2-9266-106d6e0b3c32",
+    "data": [
+      {
+        "text": "I didn\u0027t get the item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "e2b28fd2-3870-4c08-a696-3e76b4937002",
+    "data": [
+      {
+        "text": "The item was not the ",
+        "userDefined": false
+      },
+      {
+        "text": "correct item",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "a573bf36-4a37-4de1-ba86-906b914ad249",
+    "data": [
+      {
+        "text": "I got the wrong item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "47b6649d-4741-4d73-b4ec-7ab4f6439846",
+    "data": [
+      {
+        "text": "The quantity was wrong",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "b048f647-cbd6-4737-a6bd-c8e429c96cb3",
+    "data": [
+      {
+        "text": "the item was a different ",
+        "userDefined": false
+      },
+      {
+        "text": "colour",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  },
+  {
+    "id": "29614035-e1ba-46cd-95d2-1eee4ed6be6d",
+    "data": [
+      {
+        "text": "the item is a different ",
+        "userDefined": false
+      },
+      {
+        "text": "model",
+        "alias": "missing-item",
+        "meta": "@missing-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549133556
+  }
+]

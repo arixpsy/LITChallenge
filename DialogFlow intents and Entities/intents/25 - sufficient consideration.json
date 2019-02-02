@@ -1,0 +1,44 @@
+{
+  "id": "2c400a21-5702-0100-1680-f4a79180b8bb",
+  "name": "25 - sufficient consideration",
+  "auto": true,
+  "contexts": [
+    "maybe-insufficient-consideration"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "maybe-insufficient-consideration",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "is-consideration-past",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "We assumed that sufficient consideration came from you. \u003cbr\u003e\nDid the promise happen before you gave #maybe-insufficient-consideration.consideration ? \u003cbr\u003e\n(before/after)",
+            "We assumed that sufficient consideration came from you. \u003cbr\u003e\nDid the promise happen before you gave what you are supposed to give? \u003cbr\u003e\n(before/after)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549135576,
+  "fallbackIntent": false,
+  "events": []
+}

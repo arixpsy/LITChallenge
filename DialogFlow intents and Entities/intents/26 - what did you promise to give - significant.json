@@ -1,0 +1,60 @@
+{
+  "id": "f40406a3-3cb2-921c-904e-194dc568c37e",
+  "name": "26 - what did you promise to give - significant",
+  "auto": true,
+  "contexts": [
+    "what-you-give"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "what-you-give",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "is-consideration-past",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3ca5f1fa-1445-445d-b9c5-ecbbc5de0d79",
+          "dataType": "@consideration",
+          "name": "consideration",
+          "value": "$consideration",
+          "isList": false
+        },
+        {
+          "id": "ed50aa6e-a3f2-4da5-bcc0-8fdc61012db5",
+          "dataType": "@sys.unit-currency",
+          "name": "unit-currency",
+          "value": "$unit-currency",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Did the promise happen before you gave what you are supposed to give? \u003cbr\u003e\n(before/after)",
+            "Did the promise happen before you gave your $consideration? \u003cbr\u003e\n(before/after)",
+            "Did the promise happen before you gave your $unit-currency.original? \u003cbr\u003e\n(before/after)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549136568,
+  "fallbackIntent": false,
+  "events": []
+}

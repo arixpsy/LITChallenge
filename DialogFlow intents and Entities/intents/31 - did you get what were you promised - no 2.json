@@ -1,0 +1,52 @@
+{
+  "id": "80dbc169-460e-2f9b-51fe-0b9ad6cef088",
+  "name": "31 - did you get what were you promised - no 2",
+  "auto": true,
+  "contexts": [
+    "got-what-you-were-promised"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "got-what-you-were-promised",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "is-this-a-term",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c3b1d83f-f84e-4a8a-b1d2-214933012550",
+          "dataType": "@missing-item",
+          "name": "missing-item",
+          "value": "$missing-item",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Where was missing item stated? \u003cbr\u003e\n(e.g. It was stated in the written agreement, we agreed just before signing the form, it was part of an advertisement)",
+            "Where was $missing-item stated? \u003cbr\u003e\n(e.g. It was stated in the written agreement, we agreed just before signing the form, it was part of an advertisement)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549133556,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "de84f892-5865-04b9-007a-d1c8e541d449",
+  "name": "29 - did you get what were you promised - yes",
+  "auto": true,
+  "contexts": [
+    "got-what-you-were-promised"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "got-what-you-were-promised",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "NOW-WHAT",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It seem that the contract is completed successful.\nThere may be a case against the other party.\nHowever, if you have any legal issues please contact our lawyers."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

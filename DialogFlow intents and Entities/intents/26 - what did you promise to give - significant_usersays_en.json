@@ -1,0 +1,264 @@
+[
+  {
+    "id": "5dddda7c-b880-46b1-bfdf-e5ee89ea3960",
+    "data": [
+      {
+        "text": "performance",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549136568
+  },
+  {
+    "id": "b2bd2a2f-13b0-4b03-8839-5faac44dbd41",
+    "data": [
+      {
+        "text": "money",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "68702af6-4bf7-47d8-86b3-3303570d1815",
+    "data": [
+      {
+        "text": "goods",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "908553f4-1888-49e0-bfa4-25765823241f",
+    "data": [
+      {
+        "text": "services",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "7cebdc9b-a118-43cc-a603-4e022c6f6328",
+    "data": [
+      {
+        "text": "time",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1549132945
+  },
+  {
+    "id": "b7e35d6a-ad15-49a4-b8df-c54f2bea3905",
+    "data": [
+      {
+        "text": "skills",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3e4dc996-74e3-473a-a892-04048d5912cf",
+    "data": [
+      {
+        "text": "hours",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "13e9ed7b-eea1-49c7-9e8e-8340d95a9d66",
+    "data": [
+      {
+        "text": "minutes",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549135855
+  },
+  {
+    "id": "5716098c-e9e9-421f-98f8-2bfa4c2a825b",
+    "data": [
+      {
+        "text": "body",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3dff8afc-412f-4eb8-bbca-c752d3c3d982",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "phone",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "03f2a53c-6722-4f97-b997-ecb2aef6808a",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "pen",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "a2bf4b58-aa4d-423b-9253-882479d07c22",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "car",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "46718f8e-4f24-438c-93c1-8eccf4f7707b",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "bag",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "e0b60bc4-4121-4359-bd2d-18c24e24b97a",
+    "data": [
+      {
+        "text": "$100",
+        "alias": "unit-currency",
+        "meta": "@sys.unit-currency",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "eee48aab-abfe-4958-b07e-253f3c2952c6",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f2a31552-bf85-423d-bffa-3cd07d8ca4e8",
+    "data": [
+      {
+        "text": "work",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "ec29e432-7b01-46f7-8683-8e19bd79b0a3",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "life",
+        "alias": "consideration",
+        "meta": "@consideration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

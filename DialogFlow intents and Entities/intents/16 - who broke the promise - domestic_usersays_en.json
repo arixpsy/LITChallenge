@@ -1,0 +1,332 @@
+[
+  {
+    "id": "dc4debd8-7529-4c64-970b-78c479891bd7",
+    "data": [
+      {
+        "text": "friend",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "64927e65-8050-420e-a71b-de712c63a046",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "family",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "a0d0d8f9-aa10-4e45-8ff8-566977ea0242",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "girlfriend",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "c3b8e87d-9042-46a0-8842-6aaeb09e488a",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "boyfriend",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "ee5cb448-ed1c-43f9-9083-14968c39115d",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "husband",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "b5b2d9d4-5f74-4954-a9c1-c75147e0f5b0",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "wife",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "b8a1666b-ebd9-4d61-bdfd-57965d576810",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "father",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "0ee77554-8aaf-4bb9-8bdb-7da22262b2c7",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "mother",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "496716eb-7e36-4de0-ac32-037751740b1b",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "classmate",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "20fe49d5-8e96-4ec4-b1a0-682d39a9919b",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "friend",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "ac222bce-541c-4d15-8caa-9ce44c92fa2f",
+    "data": [
+      {
+        "text": "colleague",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "22aa37d0-12cb-466b-a3e5-c47036adc59e",
+    "data": [
+      {
+        "text": "cousin",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "1b42dd82-07f6-4c40-8b71-886dc3d4d77c",
+    "data": [
+      {
+        "text": "father-in-law",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f38f4b25-d35f-4ef6-bb72-1d44c8724735",
+    "data": [
+      {
+        "text": "mother-in-law",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "75a7cac2-5bbb-4a5d-ba05-b177188cd212",
+    "data": [
+      {
+        "text": "daughter-in-law",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "bc6f703c-4028-434e-8f4a-5ae7ace0b629",
+    "data": [
+      {
+        "text": "son-in-law",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "d0d28c0c-9e70-40ae-b496-a322e8c861ea",
+    "data": [
+      {
+        "text": "granddaughter",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "04b2991b-bbb3-4020-999f-0259f2e24edc",
+    "data": [
+      {
+        "text": "grandfather",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "7da9997f-fe4c-48ad-aaea-367cb8acd113",
+    "data": [
+      {
+        "text": "grandmother",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "3c27c7d8-8933-4054-b983-125d9eca0488",
+    "data": [
+      {
+        "text": "grandson",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "4dcd5d1d-2660-4a48-a7ee-a08ee7c508b1",
+    "data": [
+      {
+        "text": "spouse",
+        "alias": "defendant",
+        "meta": "@defendant",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "19f4c34e-3e00-2da4-a04f-09a8709965d4",
+  "name": "11 - divorce matter",
+  "auto": true,
+  "contexts": [
+    "init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "init",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "allied-law-firms",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It seems that your issue relates to family matters. \u003cbr\u003e\nOur chatbot is trained to answer issues pertaining to contract matters. \u003cbr\u003e\nPlease refer to our allied law firms."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549132945,
+  "fallbackIntent": false,
+  "events": []
+}

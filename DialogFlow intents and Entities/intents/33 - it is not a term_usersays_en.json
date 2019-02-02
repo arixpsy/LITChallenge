@@ -1,0 +1,74 @@
+[
+  {
+    "id": "95eeb2e7-61b1-4ff2-8269-46c02d5109ab",
+    "data": [
+      {
+        "text": "It was in the advertisement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "90d178d6-296a-4cb5-a50f-ae4e32ff1a2b",
+    "data": [
+      {
+        "text": "It was from the salesperson",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "09c72b6b-5310-4750-aaed-63d5a6ec4583",
+    "data": [
+      {
+        "text": "The poster said so.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "b37092b3-5a87-4f2d-ae7a-6357dad3389b",
+    "data": [
+      {
+        "text": "It was on the TV",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "f1e55e2f-a9eb-4813-a6dd-4c1b290c5135",
+    "data": [
+      {
+        "text": "It was on the internet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  },
+  {
+    "id": "4136c1d9-c2f2-4929-97d0-97e180bfc4ce",
+    "data": [
+      {
+        "text": "It was labelled on the shelf",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549132945
+  }
+]
