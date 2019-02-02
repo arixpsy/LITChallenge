@@ -86,3 +86,11 @@
 #mCSB_1_scrollbar_vertical{
     display: none !important;
 }
+
+.card-img-top{
+    max-height: 150px;
+}
+
+.card{
+    min-height: 460px;
+}
