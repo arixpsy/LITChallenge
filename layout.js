@@ -25,16 +25,13 @@
   function init() {
     queryInput = document.getElementById("q");
     resultDiv = document.getElementById("result");
-    accessTokenInput = document.getElementById("access_token");
-    var setAccessTokenButton = document.getElementById("set_access_token");
-
     queryInput.addEventListener("keydown", queryInputKeyDown);
-    setAccessTokenButton.addEventListener("click", setAccessToken);
-    setAccessTokenButton.click();
+    setAccessToken();
   }
 
   function setAccessToken() {
-    window.init(accessTokenInput.value);
+    window.init("e94874882f4b4eaeaf064bbd7769b77c");
+    //window.init(accessTokenInput.value);
   }
 
   function queryInputKeyDown(event) {
@@ -46,6 +43,7 @@
     queryInput.value = "";
 
     createQueryNode(value);
+    document.getElementById("result").scrollTop = document.getElementById("result").scrollHeight;
     var responseNode = createResponseNode();
 
     sendText(value)
@@ -58,10 +56,12 @@
         }
         setResponseJSON(response);
         setResponseOnNode(result, responseNode);
+        document.getElementById("result").scrollTop = document.getElementById("result").scrollHeight;
       })
       .catch(function(err) {
         setResponseJSON(err);
         setResponseOnNode("Something goes wrong", responseNode);
+        document.getElementById("result").scrollTop = document.getElementById("result").scrollHeight;
       });
   }
 
@@ -78,11 +78,13 @@
     node.innerHTML = "...";
     resultDiv.appendChild(node);
     return node;
+
   }
 
   function setResponseOnNode(response, node) {
     node.innerHTML = response ? response : "[empty response]";
     node.setAttribute('data-actual-response', response);
+
   }
 
   function setResponseJSON(response) {

@@ -29,8 +29,8 @@ a:focus {
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    position: inherit;
 }
 
 .navbar-btn {
@@ -59,7 +59,6 @@ a:focus {
     z-index: 1040;
     color: #fff;
     transition: all 0.3s;
-    overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -82,7 +81,7 @@ a:focus {
 }
 
 #dismiss:hover {
-    background: #fff;
+    background: gray;
 }
 
 .overlay {
